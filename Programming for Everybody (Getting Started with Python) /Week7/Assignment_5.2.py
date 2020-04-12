@@ -21,7 +21,7 @@ while True:
     try:
         num = float(inp)
     except:
-        print "Invalid input"
+        print("Invalid input")
         continue
     if smallest is None:
         smallest = num 
