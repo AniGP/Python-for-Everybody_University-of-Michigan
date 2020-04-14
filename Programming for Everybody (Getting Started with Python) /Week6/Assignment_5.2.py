@@ -15,13 +15,13 @@ largest = None
 smallest = None
 
 while True:
-    inp = input("Enter a number: ")
+    inp = raw_input("Enter a number: ")
     if inp == "done" : 
         break
     try:
         num = float(inp)
     except:
-        print "Invalid input"
+        print("Invalid input")
         continue
     if smallest is None:
         smallest = num 
